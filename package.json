@@ -1,0 +1,32 @@
+{
+  "name": "simulaenem",
+  "version": "1.0.0",
+  "description": "Sistema de simulados para ENEM e vestibulares.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoCodeJones/SimulaEnem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GoCodeJones/SimulaEnem/issues"
+  },
+  "homepage": "https://github.com/GoCodeJones/SimulaEnem#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9"
+  }
+}
